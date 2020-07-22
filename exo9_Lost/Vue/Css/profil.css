@@ -1,0 +1,323 @@
+body{
+    margin:0;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+        ), url(../Ressources/Image/accueil1.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+	animation: body 2s 1;
+}
+@keyframes body {
+  0%{
+   opacity:0;
+  }
+  85%{
+	
+  }
+}
+nav#navbar{
+    width:100%;
+    height:6vw;
+    text-align:center;
+    position:fixed;
+    left:0;
+    transition:all .5s;
+    z-index:-50;
+}
+#nom_du_site{
+    display:inline-block;
+    vertical-align:top;
+    text-align:left;
+    padding:2vw;
+    width:30%;
+
+}
+span#lost{
+    font-size:1.5vw;
+    color:white;
+    font-family:Viafont;
+}
+span#and{
+    font-size:1.7vw;
+    padding:0.3vw;
+    color:#333333;
+    background:white;
+    border-radius:.5vw;
+    font-family:FerroRosso;
+}
+span#found{
+    font-size:1.2vw;
+    color:white;
+    font-family:Basicaline-NonCommercial;
+
+}
+.menu0{
+    display:inline-block;
+    padding:1.2vw;
+    width:50%;
+}
+ul.menu1{
+    margin:0vw;
+    padding:0;
+}
+ul.menu1 li.menu1{
+    display: table-cell;			
+}
+ul.menu1 li.menu1 a{
+    font-family: Trebuchet MS;
+    font-size:.8vw;
+    display: block;
+    position: relative;
+    text-align: center; 
+    text-decoration: none;
+    transition: all 1s;
+    padding:.1vw 2vw .1vw 2vw;
+    color: #fff;
+    margin:.5vw 0 0 0;
+    border-radius: 0;
+}
+ul.menu1 li.menu1 a:hover, 
+ul.menu1 li.menu1 a:focus{
+    transition: all 1s;
+    border-bottom:.1vw solid #ffffff;
+}
+#section_profil{
+    position:absolute;
+    height:auto;
+    width:100%;
+    margin:6vw auto;
+}
+#photo{
+    object-fit:cover;
+    background:#333333;
+    margin:8vw 5vw 0vw auto;
+    display:inline-block;
+    vertical-align:top;
+    border-radius:10vw;
+    border:1vw solid #ffffff;
+    transition:all .5s;
+    width:20vw;
+    height:20vw;
+}
+#photo1{
+    object-fit:cover;
+    position:absolute;
+    margin:0vw 0vw 0vw -10vw;
+    display:inline-block;
+    vertical-align:top;
+    border-radius:10vw;
+    width:20vw;
+    height:20vw;
+}
+.block_np{
+    position:absolute;
+    z-index:-1;
+    background:#ffffff;
+    border-radius:.5vw;
+    height:4.5vw;
+    width:16vw;
+    padding:2vw;
+    margin:15vw auto;   
+}
+
+#nom_prenom{
+    position:absolute;
+    z-index:-1;
+    background:#ffffff;
+    border-radius:.5vw;
+    font-family:arial;
+    height:auto;
+    width:16vw;
+    padding:0;
+    bottom:0; 
+}
+
+#modif_profil{
+    background:#ffffff;
+    margin:0vw 0vw 0vw 0vw;
+    display:inline-block;
+    border-radius:.5vw;
+    width:40vw;
+    height:40vw;
+    transition:all .5s;
+}
+#mes_annonce{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.8), 
+        rgba(0, 0, 0, 0.8)
+        ), url(../Ressources/image/accueil1.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    position:fixed;
+    border-radius:0vw;
+    top:0;
+    right:-50vw;
+    width:50vw;
+    height:100%;
+    transition:all .5s;
+    overflow:auto;
+}
+.annonce{
+    margin-top:1vw;
+    width:100%;
+    height:15vw;
+    border-top:.1vw solid #888888;
+    border-bottom:.1vw solid #888888;
+    background:rgba(40,40,40,.5);
+}
+#detaill_descrip{
+    display:inline-block;
+    vertical-align:top;
+    text-align:center;
+    width:20vw;
+    height:100%;
+    font-family:arial;
+    color:rgba(240,240,240,.7);
+    background:rgba(40,40,40,.8);
+    border-left:.1vw solid rgba(240,240,240,.7);
+    border-right:.1vw solid rgba(240,240,240,.7);
+}
+#descrip_annonce{
+    display:inline-block;
+    vertical-align:top;
+    text-align:right;
+    width:15vw;
+    height:100%; 
+    font-family:arial;
+    font-size:.8vw;
+    margin-left:0vw;
+}
+.detail{
+    color:rgba(200,80,80);
+    margin:1vw 0 0 0;
+}
+.text{
+    margin:0vw 0 0 0;
+    color:#ffffff;
+    font-size:.9vw;
+}
+#photo_rechercher{
+    object-fit:cover;
+    display:inline-block;
+    margin-top:2.5vw;
+    margin-left:2vw;
+    width:10vw;
+    height:10vw; 
+    border-radius:10vw;
+    background:rgba(240,240,240);
+}
+h2.titre2{
+			margin-top:0vw;
+			margin-right:auto;
+			margin-left:auto;
+			width:auto;
+			height:auto;
+			color: white;
+			font-family: Arial,sans-serif;
+			font-size:2vw;
+		  color: rgb(40,40,40);
+
+		}
+		#modif{
+      display:inline-block;
+			vertical-align:top;
+			border-radius:0;
+			margin-top:2vw;
+			margin-right:0vw;
+			margin-left:auto;
+			width:27vw;
+			height:auto;
+		}
+		form.formu1{
+			margin-top:0;
+			margin-right:auto;
+			margin-left:auto;
+			
+		}
+    label.texteC1{
+			font-family: Arial, sans-serif;
+			font-size:.9vw;
+			color:#999;
+    }
+		input.texteC{
+			margin-top:0;
+			margin-right:auto;
+			margin-left:auto;
+			width:20vw;
+			height:2.2vw;
+			border-radius:0;
+			border-bottom:.1vw inset rgb(156,156,156);
+			border-top:0;
+			border-left:0;
+			border-right:0;
+			color: white;
+			background:linear-gradient(
+     rgba(0, 0, 0, 0), 
+     rgba(0, 0, 0, 0)
+      );
+			color:#888888; 
+			font-family: Arial, sans-serif;
+			font-size:0.8vw;
+		}
+	
+		div.error1{
+			margin-top:-.5vw;
+			width:auto;
+			height:1.9vw;
+			border-radius:0px 0px 10px 10px;
+			color: red;
+			font-family: Arial, sans-serif;
+		}
+		.login{
+			height:3vw;
+			width:15vw;
+			font-size:.8vw;
+			margin-left:0;
+			margin-top:0;
+      border:0vw solid #888888;
+			border-radius:.5vw;
+			color: #ffffff;
+			font-family: Arial,sans-serif;
+			text-shadow: 0 0 0 rgba( 255, 255, 255, 0.2);
+			background:#222222;
+      transition: all .3s;
+			cursor: pointer;
+		}
+		.login:hover{
+			transition: all .3s;
+      color:#333333;
+      border:.1vw solid #888888;
+			background:white;
+		}
+		div.error{
+			margin-top:-.5vw;
+			width:auto;
+			height:1.9vw;
+			border-radius:0px 0px 10px 10px;
+			color: red;
+			font-family: Arial, sans-serif;
+		}
+.effacer{
+    position:relative;
+    z-index:500;
+    background:rgba( 255, 255, 255, 0);
+    color:rgba(200,80,80);
+    top:-14vw;
+    font-size:1vw;
+    font-family:arial;
+    border:.1vw solid rgba(200,80,80);
+    padding:1vw;
+    cursor:pointer;
+    transition: all .3s;
+}
+.effacer:hover{
+	transition: all .3s;
+    color:#222222;
+    border:.1vw solid rgba( 255, 255, 255, 0);
+	background:rgba(200,80,80);
+}

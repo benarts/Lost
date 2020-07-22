@@ -1,0 +1,101 @@
+h2.titre2{
+			margin-top:0vw;
+			margin-right:auto;
+			margin-left:auto;
+			width:auto;
+			height:auto;
+			color: white;
+			font-family: Arial,sans-serif;
+			font-size:2vw;
+		  color: rgb(40,40,40);
+
+		}
+		#inscription,#connecter{
+      display:inline-block;
+			vertical-align:top;
+			border-radius:0;
+			margin-top:4vw;
+			margin-right:0vw;
+			margin-left:auto;
+			width:27vw;
+			height:auto;
+		}
+
+#inscription{
+	border-left:.1vw solid #999999;
+}
+#connecter{
+	margin-top:9vw;
+}
+		form.formu1{
+			margin-top:0;
+			margin-right:auto;
+			margin-left:auto;
+			
+		}
+    label.texteC1{
+			font-family: Arial, sans-serif;
+			font-size:.9vw;
+			color:#999;
+    }
+		input.texteC{
+			margin-top:0;
+			margin-right:auto;
+			margin-left:auto;
+			width:20vw;
+			height:2.2vw;
+			border-radius:0;
+			border-bottom:.1vw inset rgb(156,156,156);
+			border-top:0;
+			border-left:0;
+			border-right:0;
+			color: white;
+			background:linear-gradient(
+     rgba(0, 0, 0, 0), 
+     rgba(0, 0, 0, 0)
+      );
+			color:#888888; 
+			font-family: Arial, sans-serif;
+			font-size:0.8vw;
+		}
+	
+		div.error2{
+			margin-top:-.5vw;
+			width:auto;
+			height:1.9vw;
+			border-radius:0px 0px 10px 10px;
+			color: red;
+			font-family: Arial, sans-serif;
+		}
+		div.error{
+			margin-top:-.5vw;
+			width:auto;
+			height:1.9vw;
+			border-radius:0px 0px 10px 10px;
+			color: red;
+			font-family: Arial, sans-serif;
+		}
+		.login{
+			height:3vw;
+			width:15vw;
+			font-size:.8vw;
+			margin-left:0;
+			margin-top:0;
+      border:0vw solid #888888;
+			border-radius:.5vw;
+			color: #ffffff;
+			font-family: Arial,sans-serif;
+			text-shadow: 0 0 0 rgba( 255, 255, 255, 0.2);
+			background:#222222;
+      transition: all .3s;
+			cursor: pointer;
+		}
+		.login:hover{
+			transition: all .3s;
+      color:#333333;
+      border:.1vw solid #888888;
+			background:white;
+		}
+
+
+
